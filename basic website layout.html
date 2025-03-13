@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .nav-bar{
+        width: 100%;
+        height: 50px;
+        background-color: green;
+        padding: 10px;
+        text-align: center;
+       }
+       body{
+        font-family: Arial,Helvetica,sans-serif;
+        font-weight: bolder;
+        margin: 0px;
+       }
+       .container{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+       
+       }
+       #red{
+           width:1125px;
+            height:500px;
+            background-color:red;
+       }
+       
+          #light-violet{
+            width:200px;
+            height:500px;
+            background-color: pink;
+          }
+          #violet{
+            width:200px;
+            height:500px;
+            background-color:violet;
+          }
+          #footer{
+            text-align: center;
+            background-color: brown;
+            height: 50px;
+          }
+    </style>
+       </head>
+       <body>
+    <nav class="nav-bar">
+     Navigation Bar
+    </nav>
+    <section  class="container">
+    
+    <aside  class="one" >
+        <div id="light-violet">
+        Left sidebar
+        </div>
+    </aside>
+    
+    <main  class="one">
+        <div id="red">
+        Main
+        </div>
+    </main>
+    <aside  class="one" >
+        <div id="violet">
+        Right Sidebar
+        </div>
+    </aside>
+    </section>
+    <footer id="footer">
+        footer
+    </footer>
+    
+</body>
+</html>
