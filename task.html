@@ -86,18 +86,53 @@
     .randy{
       width: 500px;
       margin-left: 300px;
-      height: 400px;
+      height: 600px;
      color:  #6EC1E4;
      background-color: white;
-     box-shadow: 0px 5px 15px rgba(0, 0,0, 0.25);
-     padding-top: 100px;
+     border-radius: 15px;
+    
     }
     .testimonials{
-      background-image: url("https://media.istockphoto.com/id/1279731905/photo/abstract-medical-room-blur-background-for-design-blurred-of-hospital-or-clinical.jpg?s=1024x1024&w=is&k=20&c=VdlXA2FM3q2H3ssnzsw_AwPOELsJtvyNa2Y7LCeElBM=");
+      background-image: url("https://media.istockphoto.com/id/1459714232/photo/defocused-empty-corridor-in-a-hospital.jpg?s=612x612&w=0&k=20&c=Rw298sqGwA6hcbKOkyrUVfu1HGoE1k4rIZZVrQxjUNs=");
        background-repeat: no-repeat;
        background-size: cover;
        padding-top: 100px;
       height:100vh ;
+      display:relative; 
+    }
+    .img{
+      width: 500px;
+      position:absolute;
+     top:2450px;
+     left:750px;
+     border-radius: 10px;
+    }
+    .doctorcontainer{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    .doctor{
+      
+    }
+    .doctorsection{
+      background-color: #6EC1E4;
+      width: 100%;
+      height: 130vh;
+    }
+    .card{
+      background-color: white;
+      width: 300px;
+      height: 520px;
+      text-align: center;
+      color:#0d98ba;
+      border-radius: 10px;
+      box-shadow: 0px 5px 15px rgba(0, 0,0, 0.25);
+      margin-top: 100px;
+    }
+    .card img{
+      width: 300px;
+      border-radius: 10px;
     }
     </style>
 </head>
@@ -185,13 +220,53 @@
     </section>
     <section class="testimonials">
     <div class="randy" >
-      <h3 align="center" style="font-size:25px;">This Is the Best Medical<br> Centre...</h3>
+      <b style="font-size: 100px;text-align: center;margin-left: 230px;">,,</b>
+      <h3 align="center" style="font-size:25px;margin-top: 50px;">This Is the Best Medical<br> Centre...</h3>
       <h2 align="center" style="margin-top: 50px;font-size: 30px;">I’ve Been Coming Here<br> for about 2 Years and It<br> Is Simply the Best...</h2>
    <p align="center" style="margin-top: 50px;"> Randy Burns</p>
    <div align="center">
    <button style="background-color: #0041c2; color: white;margin-top: 50px;">MORE TESTIMONIALS</button>
    </div>
+   <img class="img" src="https://media.istockphoto.com/id/1319031310/photo/doctor-writing-a-medical-prescription.webp?a=1&b=1&s=612x612&w=0&k=20&c=NjsxMl8GGuQhGh5Pf1DMndLw4UoS2-lTLJuLpEeZvK8=">
     </div>
+    </section>
+    <section class="doctorsection">
+      <h3 style="text-align: center;padding-top: 60px;">Certified Personal</h3>
+      <h1 style="text-align: center;margin-top: 50px; font-size:60px;">Our Doctors</h1>
+      <div class="doctorcontainer">
+         <div class="card">
+          <img  src="https://websitedemos.net/multimed-04/wp-content/uploads/sites/228/2021/02/doc-1.jpg">
+          <div>
+           <h1 style="margin-top: 50px;">Dr. Victor Patel</h1>
+           <h3 style="margin-top: 20px; margin-bottom: 50px;">Cardiology</h3>
+           <b >+1 910-626-85266</b>
+          </div>
+         </div>
+         <div class="card">
+          <img  src="https://websitedemos.net/multimed-04/wp-content/uploads/sites/228/2020/02/doctor-03.png">
+          <div>
+           <h1 style="margin-top: 50px;">Dr. Lucy Keller</h1>
+           <h3 style="margin-top: 20px; margin-bottom: 50px;">Ophthalmology</h3>
+           <b >+1 910-626-85299</b>
+          </div>
+         </div>
+         <div class="card">
+          <img  src="https://websitedemos.net/multimed-04/wp-content/uploads/sites/228/2020/02/doctor-05.jpg">
+          <div>
+           <h1 style="margin-top: 50px;">Dr. Bella James</h1>
+           <h3 style="margin-top: 20px; margin-bottom: 50px;">Pulmonary</h3>
+           <b >+1 910-626-85277</b>
+          </div>
+         </div>
+         <div class="card">
+          <img  src="https://websitedemos.net/multimed-04/wp-content/uploads/sites/228/2020/02/doctor-07.jpg">
+          <div>
+           <h1 style="margin-top: 50px;">Dr. Olivia Ramos</h1>
+           <h3 style="margin-top: 20px; margin-bottom: 50px;">Dental</h3>
+           <b >+1 910-626-85288</b>
+          </div>
+         </div>
+      </div>
     </section>
 </body>
 </html>
